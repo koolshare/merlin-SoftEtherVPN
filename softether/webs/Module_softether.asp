@@ -33,16 +33,9 @@ function init() {
         rrt.checked = true;
     }
 }
-var enable_ss = "<% nvram_get("enable_ss"); %>";
-var enable_soft = "<% nvram_get("enable_soft"); %>";
 function menu_hook(title, tab) {
-	if(enable_ss == "1" && enable_soft == "1"){
-		tabtitle[17] = new Array("", "Softether VPN server");
-		tablink[17] = new Array("", "Module_softether.asp");
-	}else{
-		tabtitle[16] = new Array("", "Softether VPN server");
-		tablink[16] = new Array("", "Module_softether.asp");
-	}
+	tabtitle[tabtitle.length -1] = new Array("", "Softether VPN server");
+	tablink[tabtitle.length -1] = new Array("", "Module_softether.asp");
 }
 
 function done_validating() {
