@@ -1,7 +1,18 @@
-Koolshare Asuswrt-Merlin adm Changelog
+Koolshare Asuswrt-Merlin SoftEtherVPN Changelog
 ===========================================
+1.6
+   - update SoftEtherVPN server Version 4.29 build 9680 （latest stable code, 2019-4-24）
+   - update logo
+
+1.5
+   - missing changelog
+
+1.4
+   - update SoftEtherVPN server Version 4.23 build 9647
+
 1.3
    - update	update SoftEther VPN Server from version 4.2.0 build 9608 to version 4.2.2 build 9634 (latested code)
+   
 1.1
    - update	stop SoftEther VPN Server before update files
 
